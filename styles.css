@@ -1,0 +1,67 @@
+.navbar {
+  background-color: #4CAF50;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #45a049;
+}
+
+.hero {
+  background-image: url('hero-background.jpg');
+  height: 90vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.services, .products {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.service-item, .product-item {
+  display: inline-block;
+  width: 30%;
+  margin: 15px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact-form input, .contact-form textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .service-item, .product-item {
+    width: 100%;
+  }
+}
